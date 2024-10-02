@@ -24,7 +24,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-        tags: shaik/week-18-class:latest  # Replace with your Docker Hub username and repository
+        tags: shaik555/week-18-class:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-      run: docker pull shaik/week-18-class:latest  # Replace with your Docker Hub username and repository
+      run: docker pull shaik555/week-18-class:latest  # Replace with your Docker Hub username and repository
